@@ -1,6 +1,6 @@
 # Linear-Regression-Model-and-Classification-Model-
 
-Predicting CO2 Emissions with Simple Linear Regression
+#Predicting CO2 Emissions with Simple Linear Regression
 
 Overview - This repository contains a Python script for predicting carbon dioxide (CO2) emissions from vehicles using a simple linear regression model. The dataset used in this project, "FuelConsumption.csv," contains information about vehicle characteristics such as engine size, number of cylinders, and fuel consumption. The goal is to build a regression model that can predict CO2 emissions based on a single feature: engine size.
 
@@ -30,7 +30,7 @@ Model Evaluation:
 The model is evaluated using the testing set. Metrics such as mean absolute error (MAE), mean squared error (MSE), and the R-squared (R2) score are calculated to assess the model's performance.
 
 
-Customer Classification with K-Nearest Neighbors (KNN)
+#Customer Classification with K-Nearest Neighbors (KNN)
 
 Overview-
 This is predicting customer categories using a supervised machine learning algorithm called K-Nearest Neighbors (KNN). The dataset used in this project is related to a telecommunications provider that segments its customer base into four groups based on service usage patterns. The goal is to use demographic data to predict customer group membership. This is a classification problem where each customer is assigned one of four predefined labels corresponding to different service categories:
