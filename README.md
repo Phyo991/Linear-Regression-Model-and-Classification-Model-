@@ -89,8 +89,8 @@ The dataset is split into a training set (80%) and a testing set (20%) using the
 KNN Model Building and Evaluation:
 The code builds a KNN model with an initial value of k (number of neighbors) and evaluates its accuracy on both the training and testing sets.
 It then proceeds to find the optimal k value by testing a range of k values and selecting the one that yields the highest accuracy on the test set.
+![Screenshot 2023-12-25 at 5 28 51 PM](https://github.com/Phyo991/Linear-Regression-Model-and-Classification-Model-/assets/142148113/8c0b4df0-be1c-4cae-bf46-9ec86ab57b42)
 
-![Uploading Screenshot 2023-12-25 at 5.28.51 PM.jpeg…]()
 
 
 Final Model and Predictions:
