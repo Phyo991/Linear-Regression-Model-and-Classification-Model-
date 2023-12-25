@@ -30,6 +30,33 @@ Model Evaluation:
 The model is evaluated using the testing set. Metrics such as mean absolute error (MAE), mean squared error (MSE), and the R-squared (R2) score are calculated to assess the model's performance.
 
 
+#Predicting CO2 Emissions with Multiple Linear Regression and 3D Visualization
+Overview - This is predicting carbon dioxide (CO2) emissions from vehicles using multiple linear regression. The dataset used in this project, "FuelConsumption.csv," contains information about vehicle characteristics such as engine size, number of cylinders, fuel consumption, and CO2 emissions. The goal is to build a regression model that can predict CO2 emissions based on three independent variables: engine size, number of cylinders, and fuel consumption.
+
+Key Steps in the Code
+
+Data Download:
+The code starts by downloading the dataset from a specified URL using the requests library and saving it as a CSV file.
+
+Data Exploration and Preprocessing:
+A subset of features (engine size, cylinders, fuel consumption, and CO2 emissions) is selected for further exploration.
+Scatter plots are created to visualize the relationship between the three independent variables and CO2 emissions.
+
+Train-Test Split:
+The dataset is randomly split into a training set (80%) and a testing set (20%) using a random mask.
+
+Multiple Linear Regression Modeling:
+A multiple linear regression model is created using scikit-learn's LinearRegression class. The model is trained using engine size, cylinders, and fuel consumption as independent variables and CO2 emissions as the dependent variable.
+
+Model Evaluation:
+The model is evaluated using the testing set. Metrics such as mean squared error (MSE) and the R-squared (R2) score are calculated to assess the model's performance.
+
+3D Visualization of the Hyperplane:
+A 3D plot is created to visualize the hyperplane of the multiple linear regression model in a 3D space. The plot shows how the hyperplane fits the data points based on engine size, cylinders, and fuel consumption. This provides insight into the relationship between these variables and CO2 emissions.
+
+
+![Image 25-12-2023 at 5 21 PM](https://github.com/Phyo991/Linear-Regression-Model-and-Classification-Model-/assets/142148113/d315bbad-e454-4652-aedd-028ec995d725)
+
 #Customer Classification with K-Nearest Neighbors (KNN)
 
 Overview-
