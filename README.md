@@ -2,7 +2,9 @@
 
 
 Customer Classification with K-Nearest Neighbors (KNN)
-Overview
+
+
+Overview-
 This repository contains a Python script for predicting customer categories using a supervised machine learning algorithm called K-Nearest Neighbors (KNN). The dataset used in this project is related to a telecommunications provider that segments its customer base into four groups based on service usage patterns. The goal is to use demographic data to predict customer group membership. This is a classification problem where each customer is assigned one of four predefined labels corresponding to different service categories:
 
 Basic Service
