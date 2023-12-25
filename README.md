@@ -13,6 +13,8 @@ Plus Service
 Total Service
 The KNN algorithm is employed for this task, which is capable of classifying new data points based on their similarity to existing data points.
 
+The data sources - "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/teleCust1000t.csv"
+
 Key Steps in the Code
 
 Data Download and Exploration:
