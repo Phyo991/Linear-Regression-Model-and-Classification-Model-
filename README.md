@@ -29,6 +29,8 @@ The fitted regression line is plotted over the training data to visualize how we
 Model Evaluation:
 The model is evaluated using the testing set. Metrics such as mean absolute error (MAE), mean squared error (MSE), and the R-squared (R2) score are calculated to assess the model's performance.
 
+![Screenshot 2023-12-25 at 5 27 11 PM](https://github.com/Phyo991/Linear-Regression-Model-and-Classification-Model-/assets/142148113/f079dbf6-0467-4464-add1-91b614f06c7b)
+
 
 #Predicting CO2 Emissions with Multiple Linear Regression and 3D Visualization
 Overview - This is predicting carbon dioxide (CO2) emissions from vehicles using multiple linear regression. The dataset used in this project, "FuelConsumption.csv," contains information about vehicle characteristics such as engine size, number of cylinders, fuel consumption, and CO2 emissions. The goal is to build a regression model that can predict CO2 emissions based on three independent variables: engine size, number of cylinders, and fuel consumption.
@@ -87,6 +89,9 @@ The dataset is split into a training set (80%) and a testing set (20%) using the
 KNN Model Building and Evaluation:
 The code builds a KNN model with an initial value of k (number of neighbors) and evaluates its accuracy on both the training and testing sets.
 It then proceeds to find the optimal k value by testing a range of k values and selecting the one that yields the highest accuracy on the test set.
+
+![Uploading Screenshot 2023-12-25 at 5.28.51 PM.jpeg…]()
+
 
 Final Model and Predictions:
 With the best k value determined, the code trains a final KNN model and uses it to make predictions on the testing data.
