@@ -98,6 +98,7 @@ With the best k value determined, the code trains a final KNN model and uses it 
 The accuracy of the final model is reported.
 
 Instructions for Running the Code
+
 Ensure you have Python and the required libraries (NumPy, Pandas, scikit-learn, Matplotlib) installed.
 Clone or download this repository to your local machine.
 Run the Python script knn_classification.py.
